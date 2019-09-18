@@ -17,7 +17,6 @@ import time
 import cv2
 import torch
 from torch.autograd import Variable
-
 from scipy.misc import imread
 from model.utils.config import cfg, cfg_from_file, cfg_from_list
 from model.rpn.bbox_transform import clip_boxes
